@@ -9,7 +9,7 @@
     "pretest": "rimraf ./cypress/reports/mochawesome.json & rimraf ./cypress/reports/mochawesome_001.json",
     "test": "npm run cypress-test || npm run posttest",
     "cypress-test": "cypress run",
-    "posttest": "npm run merge-reports && npm generate-htmlreport ",
+    "posttest": "npm run merge-reports && npm run generate-htmlreport ",
     "merge-reports": "mochawesome-merge ./cypress/reports/*.json > ./report1.json -encoding ascii",
     "generate-htmlreport": "marge ./report1.json --reportDir ./cypress/reports"
 

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-07-14T14:12:37.769Z",
-    "end": "2024-07-14T14:12:40.371Z",
-    "duration": 2602,
+    "start": "2024-07-14T14:15:51.948Z",
+    "end": "2024-07-14T14:15:54.633Z",
+    "duration": 2685,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a37f26ee-7d91-49ad-9aef-bc14f1c794b3",
+      "uuid": "cbcb9363-a9b9-4591-bf4c-4673ec67722d",
       "title": "",
       "fullFile": "cypress\\e2e\\Login.cy.js",
       "file": "cypress\\e2e\\Login.cy.js",
@@ -29,7 +29,7 @@
           "title": "My 1st Test",
           "fullTitle": "My 1st Test",
           "timedOut": null,
-          "duration": 833,
+          "duration": 942,
           "state": "passed",
           "speed": "fast",
           "pass": true,
@@ -38,20 +38,20 @@
           "context": null,
           "code": "cy.log(\"Login 1st Test starts\");\ncy.visit(\"https://trytestingthis.netlify.app/\");\ncy.get(\"#uname\").type(\"test\");\ncy.get(\"#pwd\").type(\"test\");\ncy.get(\"[type='submit']\").click();\ncy.log(\"Login 1st Test ends\");",
           "err": {},
-          "uuid": "014d6a37-821a-44ca-a7fc-01f75f6b9ba1",
-          "parentUUID": "a37f26ee-7d91-49ad-9aef-bc14f1c794b3",
+          "uuid": "755ded67-30f3-430e-a14a-7634bda0abe1",
+          "parentUUID": "cbcb9363-a9b9-4591-bf4c-4673ec67722d",
           "isHook": false,
           "skipped": false
         }
       ],
       "suites": [],
       "passes": [
-        "014d6a37-821a-44ca-a7fc-01f75f6b9ba1"
+        "755ded67-30f3-430e-a14a-7634bda0abe1"
       ],
       "failures": [],
       "pending": [],
       "skipped": [],
-      "duration": 833,
+      "duration": 942,
       "root": true,
       "rootEmpty": false,
       "_timeout": 2000
