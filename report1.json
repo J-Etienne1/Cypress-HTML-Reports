@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2024-07-14T14:12:31.841Z",
+    "end": "2024-07-14T14:12:40.371Z",
+    "duration": 8530
+  },
+  "results": [
+    {
+      "uuid": "a37f26ee-7d91-49ad-9aef-bc14f1c794b3",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Login.cy.js",
+      "file": "cypress\\e2e\\Login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "My 1st Test",
+          "fullTitle": "My 1st Test",
+          "timedOut": null,
+          "duration": 833,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.log(\"Login 1st Test starts\");\ncy.visit(\"https://trytestingthis.netlify.app/\");\ncy.get(\"#uname\").type(\"test\");\ncy.get(\"#pwd\").type(\"test\");\ncy.get(\"[type='submit']\").click();\ncy.log(\"Login 1st Test ends\");",
+          "err": {},
+          "uuid": "014d6a37-821a-44ca-a7fc-01f75f6b9ba1",
+          "parentUUID": "a37f26ee-7d91-49ad-9aef-bc14f1c794b3",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "014d6a37-821a-44ca-a7fc-01f75f6b9ba1"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 833,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "998908b5-17ee-4d56-9458-5d5f38b3033c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\GoogleSearch.cy.js",
+      "file": "cypress\\e2e\\GoogleSearch.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Google search 1st Test",
+          "fullTitle": "Google search 1st Test",
+          "timedOut": null,
+          "duration": 1844,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.log(\"Google 1st Test starts\");\ncy.visit(\"https://google.com\");\ncy.get('#W0wltc > .QS5gu').click();\ncy.get(\".gLFyf\").type(\"Google 1st Test ends\");\ncy.log(\"Google 1st Test ends\");",
+          "err": {},
+          "uuid": "5ea056ed-48cf-403d-95ee-d205d9f2045b",
+          "parentUUID": "998908b5-17ee-4d56-9458-5d5f38b3033c",
+          "isHook": false,
+          "skipped": false
+        },
+        {
+          "title": "Google search 2st Test",
+          "fullTitle": "Google search 2st Test",
+          "timedOut": null,
+          "duration": 1079,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.log(\"Google 2st Test starts\");\ncy.visit(\"https://google.com\");\ncy.get('#W0wltc > .QS5gu').click();\ncy.get(\".gLFyf\").type(\"Google 2st Test ends\");\ncy.log(\"Google 2st Test ends\");",
+          "err": {},
+          "uuid": "a3450f01-3ecc-4214-8a28-104eb79f6212",
+          "parentUUID": "998908b5-17ee-4d56-9458-5d5f38b3033c",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "5ea056ed-48cf-403d-95ee-d205d9f2045b",
+        "a3450f01-3ecc-4214-8a28-104eb79f6212"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 2923,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
