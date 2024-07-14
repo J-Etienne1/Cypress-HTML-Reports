@@ -5,9 +5,19 @@
     "cypress": "^13.13.0",
     "typescript": "*"
   },
+  "scripts": {
+    "pretest": "rimraf ./cypress/reports/mochawesome.json & rimraf ./cypress/reports/mochawesome_001.json",
+    "test": "npm run cypress-test || npm run posttest",
+    "cypress-test": "cypress run",
+    "posttest": "npm run merge-reports && npm generate-htmlreport ",
+    "merge-reports": "mochawesome-merge ./cypress/reports/*.json > ./report1.json -encoding ascii",
+    "generate-htmlreport": "marge ./report1.json --reportDir ./cypress/reports"
+
+  },
   "dependencies": {
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^4.3.0",
-    "report-generator": "^1.0.5"
+    "report-generator": "^1.0.5",
+    "rimraf": "^6.0.1"
   }
 }
