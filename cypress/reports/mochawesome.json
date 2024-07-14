@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2024-07-14T14:10:55.727Z",
-    "end": "2024-07-14T14:11:00.388Z",
-    "duration": 4661,
+    "start": "2024-07-14T14:12:31.841Z",
+    "end": "2024-07-14T14:12:36.521Z",
+    "duration": 4680,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "c9b23876-faba-461c-8187-55e5c1eeb7e3",
+      "uuid": "998908b5-17ee-4d56-9458-5d5f38b3033c",
       "title": "",
       "fullFile": "cypress\\e2e\\GoogleSearch.cy.js",
       "file": "cypress\\e2e\\GoogleSearch.cy.js",
@@ -29,7 +29,7 @@
           "title": "Google search 1st Test",
           "fullTitle": "Google search 1st Test",
           "timedOut": null,
-          "duration": 1830,
+          "duration": 1844,
           "state": "passed",
           "speed": "fast",
           "pass": true,
@@ -38,8 +38,8 @@
           "context": null,
           "code": "cy.log(\"Google 1st Test starts\");\ncy.visit(\"https://google.com\");\ncy.get('#W0wltc > .QS5gu').click();\ncy.get(\".gLFyf\").type(\"Google 1st Test ends\");\ncy.log(\"Google 1st Test ends\");",
           "err": {},
-          "uuid": "85d96d27-c4c7-4f9f-8ef9-2b14f1437d5c",
-          "parentUUID": "c9b23876-faba-461c-8187-55e5c1eeb7e3",
+          "uuid": "5ea056ed-48cf-403d-95ee-d205d9f2045b",
+          "parentUUID": "998908b5-17ee-4d56-9458-5d5f38b3033c",
           "isHook": false,
           "skipped": false
         },
@@ -47,7 +47,7 @@
           "title": "Google search 2st Test",
           "fullTitle": "Google search 2st Test",
           "timedOut": null,
-          "duration": 1071,
+          "duration": 1079,
           "state": "passed",
           "speed": "fast",
           "pass": true,
@@ -56,21 +56,21 @@
           "context": null,
           "code": "cy.log(\"Google 2st Test starts\");\ncy.visit(\"https://google.com\");\ncy.get('#W0wltc > .QS5gu').click();\ncy.get(\".gLFyf\").type(\"Google 2st Test ends\");\ncy.log(\"Google 2st Test ends\");",
           "err": {},
-          "uuid": "1d558461-765c-4573-81a4-6f2d15572063",
-          "parentUUID": "c9b23876-faba-461c-8187-55e5c1eeb7e3",
+          "uuid": "a3450f01-3ecc-4214-8a28-104eb79f6212",
+          "parentUUID": "998908b5-17ee-4d56-9458-5d5f38b3033c",
           "isHook": false,
           "skipped": false
         }
       ],
       "suites": [],
       "passes": [
-        "85d96d27-c4c7-4f9f-8ef9-2b14f1437d5c",
-        "1d558461-765c-4573-81a4-6f2d15572063"
+        "5ea056ed-48cf-403d-95ee-d205d9f2045b",
+        "a3450f01-3ecc-4214-8a28-104eb79f6212"
       ],
       "failures": [],
       "pending": [],
       "skipped": [],
-      "duration": 2901,
+      "duration": 2923,
       "root": true,
       "rootEmpty": false,
       "_timeout": 2000
